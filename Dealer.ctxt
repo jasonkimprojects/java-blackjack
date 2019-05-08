@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Dealer()
+comment0.text=\r\n\ Constructor\ that\ instantiates\ a\ dealer.\r\n\ @param\ NONE\r\n\ Instantiates\ a\ new\ shoe,\ the\ dealer's\ hand,\ and\ a\ scanner\ for\ taking\ user\ input.\r\n
+comment1.params=
+comment1.target=Card\ dealCard()
+comment1.text=\r\n\ Dealer\ draws\ a\ card\ from\ the\ shoe.\r\n\ @param\ NONE\r\n\ @return\ a\ Card\ object\ located\ at\ the\ top\ of\ the\ shoe\ (first\ item\ in\ its\ ArrayList)\r\n
+comment2.params=
+comment2.target=boolean\ dealerBusted()
+comment2.text=\r\n\ Determines\ if\ the\ dealer\ has\ bust.\r\n\ @param\ NONE\r\n\ @return\ a\ boolean\ value\ that\ is\ true\ if\ and\ only\ if\ the\ value\ of\ the\ dealer's\ hand\ exceeds\ 21;\r\n\ otherwise\ returns\ false\r\n
+comment3.params=p1
+comment3.target=void\ insuranceBet(Player)
+comment3.text=\r\n\ Helper\ method\ that\ is\ invoked\ if\ the\ dealer's\ upcard\ is\ an\ ace\r\n\ and\ asks\ the\ player\ if\ the\ player\ will\ bet\ insurance\r\n\ @param\ the\ Player\ object\ instantiated\ in\ the\ start\ method\r\n\ @return\ NONE\r\n
+comment4.params=p1
+comment4.target=void\ dealerAI(Player)
+comment4.text=\r\n\ Helper\ method\ that\ is\ invoked\ if\ the\ dealer\ has\ to\ play\ cards\r\n\ Not\ invoked\ if\ the\ player\ doesn't\ bust.\r\n\ If\ the\ player\ has\ blackjack,\ the\ dealer\ just\ checks\ for\ the\ first\ two\ cards\ and\ does\ not\r\n\ draw\ any\ more\ cards.\r\n
+comment5.params=p1
+comment5.target=void\ determineResult(Player)
+comment5.text=\r\n\ Helper\ method\ that\ is\ invoked\ by\ the\ insuranceBet\ method\ if\ the\ player\ bets\ insurance.\r\n\ Responsible\ for\ printing\ the\ result\ on\ the\ screen\r\n\ And\ changing\ the\ player's\ bankroll\ accordingly.\ \r\n
+comment6.params=p1
+comment6.target=void\ determineInsurance(Player)
+comment6.text=\r\n\ Helper\ method\ that\ is\ invoked\ if\ the\ player\ had\ bet\ on\ insurance\r\n\ Prints\ the\ result\ on\ the\ screen\ and\ changes\ the\ player's\ bankroll\ accordingly\r\n
+comment7.params=
+comment7.target=void\ start()
+comment7.text=\r\n\ The\ main\ method\ called\ by\ the\ Game\ class\ to\ start\ the\ match.\ \r\n\ Makes\ use\ of\ several\ helper\ methods\ implemented\ above.\r\n
+numComments=8

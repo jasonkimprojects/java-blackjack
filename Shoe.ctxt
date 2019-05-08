@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=numDecks
+comment0.target=Shoe(int)
+comment0.text=\n\ @param\ int\ numDecks\ the\ number\ of\ decks\ to\ be\ shuffled\ in\ the\ shoe\n\ Adds\ every\ card\ in\ each\ deck\ to\ the\ shoe\ and\ then\ shuffles\ the\ shoe\n
+comment1.params=
+comment1.target=Card\ drawCard()
+comment1.text=\n\ @param\ none\n\ @return\ the\ card\ at\ the\ top\ of\ the\ shoe\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ @param\ none\n\ @return\ a\ String\ printing\ out\ information\ about\ every\ card\ in\ the\ shoe\n\ in\ addition\ to\ the\ number\ of\ cards\ in\ the\ shoe\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getShoe()
+comment3.text=\n\ @param\ none\n\ @return\ an\ ArrayList\ of\ Cards\ which\ is\ the\ instance\ variable\ of\ this\ class\n
+numComments=4

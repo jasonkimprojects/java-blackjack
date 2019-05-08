@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Deck()
+comment0.text=\n\ Constructor\:\ creates\ a\ full\ deck\ of\ cards\ using\ a\ unique\ combination\n\ of\ the\ arrays\ of\ suits\ and\ ranks\ above\ with\ a\ nested\ foreach\ loop\n\ @param\ NONE\n
+comment1.params=
+comment1.target=java.util.ArrayList\ getDeck()
+comment1.text=\n\ @param\ NONE\n\ @return\ an\ ArrayList<Card>\ deck\ the\ main\ instance\ variable\ of\ this\ class\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ @param\ NONE\n\ @return\ a\ String\ that\ has\ a\ description\ of\ every\ card\ in\ the\ deck,\n\ followed\ by\ the\ number\ of\ cards\ in\ the\ deck\ (just\ for\ diagnosis)\n
+numComments=3

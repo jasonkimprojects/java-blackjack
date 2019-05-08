@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=s\ r
+comment0.target=Card(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ class\ Card\n\ @param\ a\ String\ that\ indicates\ the\ suit\ followed\ by\ another\ String\ that\ indicates\ rank\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\n\ @param\ NONE\n\ @return\ a\ String\ that\ describes\ the\ rank\ and\ suit\ of\ the\ card\n
+comment2.params=
+comment2.target=int\ getNumValue()
+comment2.text=\n\ @param\ NONE\n\ @return\ an\ integer\ that\ represents\ the\ numeric\ value\ of\ the\ card\n
+comment3.params=
+comment3.target=java.lang.String\ getSuit()
+comment3.text=\n\ @param\ NONE\n\ @return\ a\ String\ that\ represents\ the\ suit\ of\ the\ card\n
+comment4.params=
+comment4.target=java.lang.String\ getRank()
+comment4.text=\n\ @param\ NONE\n\ @return\ a\ String\ that\ represents\ the\ rank\ of\ the\ card\n
+comment5.params=
+comment5.target=void\ setAceValue()
+comment5.text=\n\ This\ method\ is\ invoked\ by\ the\ hand\ class\ \n\ If\ an\ ace\ is\ added\ to\ the\ hand,\ but\ the\ hand's\ total\ value\n\ Exceeds\ 21.\ The\ method\ changes\ the\ ace's\ numeric\ value\ from\ 11\ to\ 1.\n
+numComments=6

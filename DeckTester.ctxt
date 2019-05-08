@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ @param\ String[]\ args\ the\ default\ parameter\ for\ main\n\ Tests\ every\ method\ in\ class\ Deck\n
+numComments=1
